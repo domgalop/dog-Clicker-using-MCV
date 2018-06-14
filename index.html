@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog clicker</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <div id="containerBtn">
+    </div>
+    <div id="containerImg">
+        <img  id="dogImg" src="" alt="dog">
+        <h1 id="counter"></h1>
+        <button id="admin">Admin</button>
+        <form action="adminMode" id="form">
+            <div>
+                <label for="dogname">Dog Name:</label>
+                <input type="text" id="dogname">
+            </div>
+            <div>
+                <label for="imgsrc">ImgUrl</label>
+                <input type="text" id="imgsrc">
+            </div>
+            <div>
+                <label for="clicks">#Clicks:</label>
+                <input type="text" id="clicks">
+            </div>
+            <div id="submit">
+                <button id="save">save</button>
+                <button id="cancel">cancel</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
